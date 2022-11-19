@@ -58,6 +58,16 @@ integer code: 7
 
 **b.**
 
-E &rarr; 
+E &rarr; E + T
+E &rarr; T
+T &rarr; T * F
+T &rarr; F
+F &rarr; F / A
+F &rarr; A
+A &rarr; A - B
+A &rarr; B
+B &rarr; C
+C &rarr; id
+C &rarr; ( E )
 
 
