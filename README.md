@@ -87,8 +87,3 @@ C &rarr; ( E )
 <if_stmt> &rarr; ^(##|!#)[\w]* < bool_expr> <stmt>
   
 <declareVar_stmt> &rarr; ^![\w]* '^[a&rarr;zA&rarr;Z_]{6,8}$' | ^![\w]* '^[a&rarr;zA&rarr;Z_]{6,8}$' <value_stmt>
-
-**c.**
-  
-  
-
