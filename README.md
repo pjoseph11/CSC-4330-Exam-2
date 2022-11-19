@@ -1,8 +1,8 @@
 a.
 
-These lexemes perform mathematical operations. 
-
 token name: ops
+
+These lexemes perform mathematical operations. 
 
 regex: (+|-|*|/|%|<|>|<=|>=|==|!=)
 
