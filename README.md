@@ -26,9 +26,17 @@ integer code: 3
 
 token name: loop
 
-These lexemes can initiate while or for loops. They must start with the @ sign then can have any non digit character. 
+These lexemes can initiate while or for loops. They must start with the @ sign then can have any alphanumeric character. 
 
-regex: ^@[\D]*
+regex: ^@[\w]*
+
+integer code: 4
+
+token name: selection statement
+
+These lexemes can initiate selection statements like if/else. The primary condition must start with ## and the conditional must start with !#. 
+
+regex: ^(## | !#)[\w]*
 
 integer code: 4
 
