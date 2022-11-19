@@ -1,0 +1,10 @@
+~start
+	!!int vaaaar_one 1_12
+	!!int var_two 10_13
+	!int var_the var_one + var_two
+	!!int str_one
+
+	##IF var_th < 4_20
+		str_one var_one
+	!#END
+^~stop

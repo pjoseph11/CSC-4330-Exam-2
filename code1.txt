@@ -1,0 +1,14 @@
+~~start
+	!!int var_one 1_12
+	!!int var_two 2_13
+	!!int var_the var_one + var_two
+	!!int str_one
+
+	##IF var_th < 4_20
+		str_one var_one
+	!#END
+	
+	@WHILE var_one > 1_3
+		var_two + 1_1
+		var_one - 1_1
+!~stop
