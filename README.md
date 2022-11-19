@@ -32,12 +32,30 @@ regex: ^@[\w]*
 
 integer code: 4
 
+token name: declaration
+
+These lexemes assign what kind of data will be given to a variable. They must start with the @ sign then can have any alphanumeric character. 
+
+regex: ^@[\w]*
+
+integer code: 5
+
 token name: selection statement
 
 These lexemes can initiate selection statements like if/else. The primary condition must start with ## and the conditional must start with !#. 
 
-regex: ^(## | !#)[\w]*
+regex: ^(##|!#)[\w]*
 
-integer code: 4
+integer code: 6
+
+token name: Start Stop 
+
+These lexemes can start and end a program. Start must start with $$ End must start with !$ then you can have any alphanumeric characters. 
+
+regex: ^($$|!$)[\w]*
+
+integer code: 7
+
+
 
 
