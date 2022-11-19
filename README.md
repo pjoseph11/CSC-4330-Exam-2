@@ -81,8 +81,11 @@ C &rarr; id
 C &rarr; ( E )
 
 <stmt> &rarr; <loop_stmt> | <if_stmt> | <declareVar_stmt>
+  
 <loop_stmt> &rarr; '^@\w*{' <bool_exp> } <stmt>
+  
 <if_stmt> &rarr; ^(##|!#)[\w]* < bool_expr> <stmt>
+  
 <declareVar_stmt> &rarr; ^![\w]* '^[a&rarr;zA&rarr;Z_]{6,8}$' | ^![\w]* '^[a&rarr;zA&rarr;Z_]{6,8}$' <value_stmt>
 
 **c.**
