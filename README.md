@@ -1,6 +1,6 @@
 a.
 
-**token name: ops
+**token name: ops**
 
 These lexemes perform mathematical operations. 
 
