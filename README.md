@@ -15,3 +15,9 @@ token name: integer literal
 regex: ^[1248]_\d*
 
 integer code: 2
+
+These lexemes are variable names that can only contain letters and underscores.
+
+token name: variable
+
+regex: ^[a-zA-Z_]{6,8}$
