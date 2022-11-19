@@ -34,9 +34,9 @@ integer code: 4
 
 **token name: declaration**
 
-These lexemes assign what kind of data will be given to a variable. They must start with the @ sign then can have any alphanumeric character. 
+These lexemes assign what kind of data will be given to a variable. They must start with the !! sign then can have any alphanumeric character. 
 
-regex: ^![\w]*
+regex: ^!![\w]*
 
 integer code: 5
 
@@ -52,7 +52,7 @@ integer code: 6
 
 These lexemes can start and end a program. Start must start with $$ End must start with !$ then you can have any alphanumeric characters. 
 
-regex: ^($$|!$)[\w]*
+regex: ^(~~|!~)[\w]*
 
 integer code: 7
 
