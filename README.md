@@ -1,7 +1,7 @@
-  a.
-  token name: ops
-  lexemes: (+|-|*|/|%|<|>|<=|>=|==|!=)
-  integer code: 1
+a.
+token name: ops
+lexemes: (+|-|*|/|%|<|>|<=|>=|==|!=)
+integer code: 1
 
-  token name:
-  lexemes: 
+token name:
+lexemes: 
