@@ -1,4 +1,4 @@
-a.
+**a.**
 
 **token name: ops**
 
@@ -26,9 +26,9 @@ integer code: 3
 
 **token name: loop**
 
-These lexemes can initiate while or for loops. They must start with the @ sign then can have any alphanumeric character. 
+These lexemes can initiate while or for loops. They must start with the @ sign then can have any alphanumeric character and must end in a left curly bracket to set up the condition.  
 
-regex: ^@[\w]*
+regex: ^@\w*{
 
 integer code: 4
 
@@ -36,7 +36,7 @@ integer code: 4
 
 These lexemes assign what kind of data will be given to a variable. They must start with the @ sign then can have any alphanumeric character. 
 
-regex: ^@[\w]*
+regex: ^![\w]*
 
 integer code: 5
 
