@@ -16,7 +16,7 @@ regex: ^[1248]_\d*
 
 integer code: 2
 
-These lexemes are variable names that can only contain letters and underscores.
+These lexemes are variable names of 6-8 length that can only contain letters and underscores.
 
 token name: variable
 
