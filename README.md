@@ -2,11 +2,11 @@ a.
 
 token name: ops
 
-lexemes: (+|-|*|/|%|<|>|<=|>=|==|!=)
+regex: (+|-|*|/|%|<|>|<=|>=|==|!=)
 
 integer code: 1
 
 
-token name:
+token name: integer literal
 
-lexemes: 
+lexemes: 1 byte 
