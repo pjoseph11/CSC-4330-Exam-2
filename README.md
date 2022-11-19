@@ -8,8 +8,14 @@ regex: (+|-|*|/|%|<|>|<=|>=|==|!=)
 
 integer code: 1
 
-These lexemes are integers and memory is defined by the number before the underscore.
+These lexemes are integer literals You must start with 1, 2, 4, 8 
+
+followed by an underscore to define the memory value. Then any number of digits
+
+for the actual value of the integer.  
 
 token name: integer literal
 
-regex: 
+regex: ^[1248]_\d*
+
+integer code: 2
