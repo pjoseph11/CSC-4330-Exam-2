@@ -22,6 +22,14 @@ These lexemes are variable names of 6-8 length that can only contain letters and
 
 regex: ^[a-zA-Z_]{6,8}$
 
-integer code 3:
+integer code: 3
+
+token name: loop
+
+These lexemes can initiate while or for loops. They must start with the @ sign then can have any non digit character. 
+
+regex: ^@[\D]*
+
+integer code: 4
 
 
